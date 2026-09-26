@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Explore — VERYА</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<div class="cursor-dot"></div><div class="cursor-ring"></div>
+<header class="navbar scrolled"><a class="brand" href="index.html"><span class="brand-mark">⌁</span><span>VERYА</span></a>
+<nav class="desktop-nav"><a class="nav-link" href="index.html">Home</a><a class="nav-link active" href="explore.html">Explore</a><a class="nav-link" href="finder.html">Plan Trip</a><a class="nav-link" href="my-trips.html">My Trips</a><a class="nav-link" href="profile.html">Profile</a></nav>
+<a class="nav-cta" href="finder.html">Find My Trip <span>→</span></a><button class="menu-toggle" id="menuToggle"><span></span><span></span></button></header>
+<div class="mobile-menu" id="mobileMenu"><a href="index.html">Home</a><a href="explore.html">Explore</a><a href="finder.html">Plan Trip</a><a href="my-trips.html">My Trips</a><a href="profile.html">Profile</a><a class="mobile-cta" href="finder.html">Find My Trip →</a></div>
+<main class="app-page">
+<section class="page-intro"><p class="eyebrow">01 / EXPLORE</p><h1>FIND PLACES<br><em>WORTH GOING.</em></h1><p>Browse destinations by budget, mood, duration and the kind of memories you want to make.</p></section>
+<section class="explore-toolbar"><div class="search-box"><span>⌕</span><input id="destinationSearch" placeholder="Search destinations..."></div><select id="budgetFilter"><option value="">Any budget</option><option value="5000">Under ₹5,000</option><option value="10000">Under ₹10,000</option><option value="15000">Under ₹15,000</option><option value="25000">Under ₹25,000</option></select><select id="moodFilter"><option value="">Any mood</option><option>Relax</option><option>Adventure</option><option>Explore</option><option>Escape</option></select><select id="durationFilter"><option value="">Any duration</option><option value="3">Up to 3 days</option><option value="5">Up to 5 days</option><option value="7">Up to 7 days</option></select></section>
+<section class="explore-layout"><div><div class="results-top"><span id="resultCount">8 destinations</span><button class="filter-reset" id="resetFilters">Reset filters</button></div><div class="destination-grid explore-grid" id="exploreGrid"></div></div>
+<div class="mini-map"><div class="map-header"><span>WAYPOINT MAP</span><small>SELECT A PIN</small></div><div class="map-canvas" id="mapCanvas"><div class="map-route r1"></div><div class="map-route r2"></div><div class="central-waypoint"><span></span><label>YOUR<br>WAYPOINT</label></div></div></div></section>
+</main>
+<footer class="footer"><div class="footer-main"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">⌁</span><span>VERYА</span></a><p>Plan your escape.</p></div><div class="footer-links"><div><small>DISCOVER</small><a href="explore.html">Explore</a><a href="finder.html">Plan Trip</a><a href="my-trips.html">My Trips</a></div><div><small>VERYА</small><a href="profile.html">Profile</a><a href="settings.html">Settings</a></div></div></div><div class="footer-bottom"><span>© 2026 VERYА</span><span>Made for journeys worth taking.</span></div></footer>
+<script src="js/data.js"></script><script src="js/app.js"></script><script src="js/explore.js"></script></body></html>
